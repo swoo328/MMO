@@ -1,0 +1,146 @@
+*{
+    padding:0;
+    margin:0;
+}
+/* Homepage background */
+body.home{
+    background-image: url('images/mmo.jpg'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;   
+}
+/*Different background photos for the six games*/
+body.wow{
+    background-image: url('images/wow2.jpeg'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;   
+}
+
+body.ash{
+    background-image: url('images/ashes.jpeg'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;   
+}
+
+body.newW{
+    background-image: url('images/nworld.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;   
+}
+
+body.tera{
+    background-image: url('images/tera1.png'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;   
+}
+
+body.ff{
+    background-image: url('images/ff14background.jpg'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;   
+}
+
+body.elder{
+    background-image: url('images/elder1.jpg'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;   
+}
+/* blog and forum background */
+body.blog,
+body.forum,
+body.login
+{
+    background-image: url('images/castle.jpg'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%; 
+}
+
+.imgCenter{
+    display:flex;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    margin-top:10px;
+    justify-content: center;
+    box-shadow: 5px 5px 5px #888888;   
+}
+
+h1{
+    text-align: center;
+    color: #6495ED;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+h2{
+    color: aquamarine;
+    font-family: Play;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+}
+.sectThree{
+    text-align: center;
+}
+/* login css */
+/* forum css */
+/* blog css */
+/* Container CSS */
+.container{
+    width:40%;
+    font-size: 25px;
+    color:#00FFFF;
+    font-family: 'Titillium Web', sans-serif;
+    padding:0;
+    text-align: center;
+}
+
+.container:hover{
+    background:black;
+    opacity:0.5;
+    
+}
+/* footer icons css*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+/* facebook icon */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+/* twitter icon */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* reddit icon */
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  /* copyright */
+  .copy{
+    font-size: 12px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color:cadetblue;
+        color:white;
+        text-align:center;
+    }
